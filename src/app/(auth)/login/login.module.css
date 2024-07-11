@@ -1,0 +1,16 @@
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.form input {
+    margin: 5px 0;
+}
+
+.error {
+    background-color: red;
+    color: white;
+    padding: 5px;
+    border-radius: 3px;
+}
