@@ -1,8 +1,8 @@
-'use client';
+// 'use client';
 import styles from './resetPassword.module.css';
 import PasswordResetForm from '@/components/passwordResetForm'
 import { verifyToken } from '@/lib/actions';
-import { useEffect, useState } from 'react';
+// import { useEffect, useState } from 'react';
 
 function ResetPassword({params}) {
     const { token } = params;
